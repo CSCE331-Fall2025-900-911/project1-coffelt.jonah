@@ -1,0 +1,14 @@
+#services-container {
+    padding-top: 75px;
+    padding-left: 75px;
+}
+
+.service {
+    border-left: 3px black solid;
+    padding-left: 25px;
+    margin-bottom: 75px;
+}
+
+.service > h1 {
+    font-size: min(94px, 3.5vw);
+}

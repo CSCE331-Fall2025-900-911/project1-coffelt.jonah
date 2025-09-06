@@ -1,8 +1,8 @@
 #home {
     position: absolute;
-    padding-top: 125px;
+    padding-top: 100px;
     width: 100%;
-    height: calc(100% - 125px);
+    height: calc(100% - 100px);
 }
 
 #home-title {
@@ -14,10 +14,10 @@
 #home-subtitle {
     font-weight: 300;
     /* font-size: 26px; */
-    font-size: min(26px, 1.6vw);
+    font-size: min(26px, 1.2vw);
 }
 
 #home-name {
-    font-size: min(164px, 10vw);
+    font-size: min(164px, 7.5vw);
     letter-spacing: 12px;
 }

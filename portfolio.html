@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonah Coffelt</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/projects.css">
+    <link rel="stylesheet" href="style/acedemics.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aubrey&family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/portfolioLogo.png">
+</head>
+
+<body>
+    <img src="assets/paper.png" alt="" id="background-image">
+
+    <div id="border">
+        <div id="page-container">
+            <div class="page active" id="projects">
+                <div id="projects-title">
+                    <h1 id="project-name">
+                        portfolio
+                    </h1>
+                </div>
+                
+                <div id="project-list">
+                    <button class="project-item nav-button" data-preview="project-preview-1"  data-page="basilisk">
+                        <h1>basilisk engine</h1>
+                        <p>a lightweight 3D engine package for python</p>
+                    </button>
+                    <button class="project-item nav-button" data-preview="project-preview-2"  data-page="minecraft">
+                        <h1>minecraft python edition</h1>
+                        <p>a minecraft clone, but made in python</p>
+                    </button>
+                    <button class="project-item nav-button" data-preview="project-preview-3"  data-page="cpu">
+                        <h1>cpu design</h1>
+                        <p>a logisim implementation of a y86 cpu</p>
+                    </button>
+                    <button class="project-item nav-button" data-preview="project-preview-4"  data-page="emulsion">
+                        <h1>emulsion</h1>
+                        <p>2nd place chillennium game made in 48 hours</p>
+                    </button>
+                    <button class="project-item nav-button" data-preview="project-preview-5"  data-page="nn">
+                        <h1>neural network</h1>
+                        <p>neural network with back propagation made with numpy</p>
+                    </button>
+                    <button class="project-item nav-button" data-preview="project-preview-6"  data-page="portfolio">
+                        <h1>portfolio website</h1>
+                        <p>the website you are on right now</p>
+                    </button>
+                </div>
+                
+                <div id="previews-container">
+                    <img src="assets/basilsk1.png" alt="" class="project-preview" id="project-preview-1">
+                    <img src="assets/minecraft1.png" alt="" class="project-preview" id="project-preview-2">
+                    <img src="assets/cpu1.png" alt="" class="project-preview" id="project-preview-3">
+                    <img src="assets/emulsion1.png" alt="" class="project-preview" id="project-preview-4">
+                    <img src="assets/nn1.png" alt="" class="project-preview" id="project-preview-5">
+                    <img src="assets/portfolio1.png" alt="" class="project-preview" id="project-preview-6">
+                </div>
+            </div>
+
+            <div class="page project-container" id="basilisk">
+                <div class="project-images-container">
+                    <div class="project-images">
+                        <img src="assets/basilisk2.png" alt="" class="project-image">
+                        <img src="assets/basilisk4.png" alt="" class="project-image">
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h1>basilisk engine</h1>
+                    <h2>c++ • python • glsl • opengl • cmake</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+            </div>
+
+            <div class="page project-container" id="minecraft">
+                <div class="project-images-container">
+                    <div class="project-images">
+                        <img src="assets/minecraft2.png" alt="" class="project-image">
+                        <img src="assets/minecraft3.png" alt="" class="project-image">
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h1>minecraft python edition</h1>
+                    <h2>python • glsl • moderngl</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+            </div>
+
+            <div class="page project-container" id="cpu">
+                <div class="project-images-container">
+                    <div class="project-images">
+                        <img src="assets/cpu1.png" alt="" class="project-image">
+                        <img src="assets/cpu2.png" alt="" class="project-image">
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h1>cpu design</h1>
+                    <h2>logisim</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+            </div>
+
+            <div class="page project-container" id="emulsion">
+                <div class="project-images-container">
+                    <div class="project-images">
+                        <img src="assets/emulsion2.png" alt="" class="project-image">
+                        <img src="assets/emulsion3.png" alt="" class="project-image">
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h1>emulsion</h1>
+                    <h2>python • glsl • basilisk engine</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+            </div>
+
+            <div class="page project-container" id="nn">
+                <div class="project-images-container">
+                    <div class="project-images">
+                        <img src="assets/nn1.png" alt="" class="project-image">
+                        <img src="assets/nn2.png" alt="" class="project-image">
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h1>nerual network</h1>
+                    <h2>python • numpy</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+            </div>
+
+            <div class="page project-container" id="portfolio">
+                <div class="project-images-container">
+                    <div class="project-images">
+                        <img src="assets/portfolio1.png" alt="" class="project-image">
+                        <img src="assets/portfolio2.png" alt="" class="project-image">
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h1>portfolio website</h1>
+                    <h2>html • css • javascript • figma</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="nav">
+            <div id="nav-title"></div>
+            <div id="nav-bar">
+                <a href="index.html" class="nav-button" data-tooltip="home">
+                    <img src="assets/home.png" alt="">
+                </a>
+                <a href="portfolio.html" class="nav-button" data-tooltip="portfolio">
+                    <img src="assets/projects.png" alt="">
+                </a>
+                <a href="qualifications.html" class="nav-button" data-tooltip="qualifications">
+                    <img src="assets/acedemics.png" alt="">
+                </a>
+                <a href="service.html" class="nav-button" data-tooltip="service">
+                    <img src="assets/projects.png" alt="">
+                </a>
+                <a href="ai.html" class="nav-button" data-tooltip="ai">
+                    <img src="assets/projects.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/nav.js"></script>
+    <script src="script/project.js"></script>
+    
+</body>
+</html>

@@ -19,11 +19,13 @@
     height: 100%;
     width: 100%;
     background: none;
+    text-align: center;
     border: none;
     cursor: pointer;
 }
 
 .nav-button > img {
+    padding-top: 7.5%;
     height: 70%;
 }
 
