@@ -1,0 +1,23 @@
+#home {
+    position: absolute;
+    padding-top: 125px;
+    width: 100%;
+    height: calc(100% - 125px);
+}
+
+#home-title {
+    margin-left: 75px;
+    border-left: 3px black solid;
+    padding-left: 50px;
+}
+
+#home-subtitle {
+    font-weight: 300;
+    /* font-size: 26px; */
+    font-size: min(26px, 1.6vw);
+}
+
+#home-name {
+    font-size: min(164px, 10vw);
+    letter-spacing: 12px;
+}
