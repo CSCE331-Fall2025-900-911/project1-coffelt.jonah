@@ -22,3 +22,7 @@ buttons.forEach(btn => {
     if (page) page.classList.add("active");
   });
 });
+
+function switchTheme(newCssFile) {
+    document.getElementById("main-stylesheet").setAttribute("href", newCssFile);
+}
