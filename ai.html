@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jonah Coffelt</title>
+    <title>Aristotelian Teleology</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/nav.css">
     <link rel="stylesheet" href="style/home.css">
@@ -13,6 +13,57 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aubrey&family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="assets/portfolioLogo.png">
+    <style>
+        body {
+            overflow-y: auto; /* enable scrolling */
+        }
+        .page {
+            padding: 75px 75px 40px 75px; /* top, left/right, bottom */
+            box-sizing: border-box;
+        }
+        .page h1 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+        .content-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .content-text {
+            flex: 2;
+            min-width: 250px;
+        }
+        .content-image {
+            flex: 1;
+            min-width: 200px;
+        }
+        .content-image img {
+            width: 100%;
+            height: auto;
+            max-height: 300px; /* prevents oversized tall images */
+            border-radius: 10px;
+            object-fit: contain;
+        }
+        .source-list {
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        .source-list a {
+            color: blue;
+            text-decoration: underline;
+        }
+        .prompt-box {
+            margin-top: 40px;
+            padding: 15px;
+            border: 2px solid #444;
+            background: #f5f5f5;
+            color: #000;
+            font-family: monospace;
+            white-space: pre-wrap;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,7 +71,44 @@
 
     <div id="border">
         <div id="page-container">
-            
+            <div class="page active" id="aristotelian-teleology">
+                <h1>Aristotelian Teleology</h1>
+                <div class="content-container">
+                    <div class="content-text">
+                        <p>
+                            Aristotelian teleology is the philosophical view that all natural things
+                            have an inherent purpose or end, known as a <em>telos</em>. For Aristotle,
+                            understanding an object or a living being requires examining not only its
+                            material composition and form, but also its final cause—the goal toward
+                            which it naturally strives. For example, an acorn’s purpose is to become
+                            an oak tree, and its development can be best explained through this lens
+                            of final causality.
+                        </p>
+                        <p>
+                            This concept of teleology deeply influenced Western philosophy and science
+                            for centuries. While modern science often avoids teleological explanations
+                            in favor of mechanistic ones, Aristotle’s framework remains significant in
+                            discussions of ethics, biology, and metaphysics. His notion that purpose
+                            is embedded in nature continues to shape debates about the meaning and
+                            order of the world.
+                        </p>
+                        <div class="source-list">
+                            <strong>Sources:</strong>
+                            <ul>
+                                <li><a href="https://classics.mit.edu/Aristotle/physics.2.ii.html" target="_blank">Aristotle, <em>Physics</em>, Book II</a></li>
+                                <li><a href="https://plato.stanford.edu/entries/aristotle/" target="_blank">Shields, Christopher. <em>Aristotle</em>. Stanford Encyclopedia of Philosophy (2020)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-image">
+                        <img src="assets/aristotle.png" alt="Bust of Aristotle">
+                    </div>
+                </div>
+
+                <div class="prompt-box">
+You are creating a page on a website. I have provided you a general outline for how other pages have been laid out. Page content goes in the page div. Make a page about Aristotelian Teleology. I want a title, a couple paragraphs of text, and an image on the right. Include 2 sources. Put all in a single complete html file. Additionally, include a box that contains this prompt on the bottom of the page.
+                </div>
+            </div>
         </div>
 
         <div id="nav">
@@ -47,6 +135,5 @@
 
     <script src="script/nav.js"></script>
     <script src="script/project.js"></script>
-    
 </body>
 </html>
