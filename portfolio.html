@@ -74,7 +74,10 @@
                 <div class="project-content">
                     <h1>basilisk engine</h1>
                     <h2>c++ • python • glsl • opengl • cmake</h2>
-                    <p>Basilisk is a 3D engine package for python that can create visualizations, simulations, and video games from the comfort and ease of Python. Basilisk is designed for quick and effortless development with a powerful backend engine that supports larger scaled projects. The engine automatically handles all graphics and physics for you, with the option to inject your own functionality if desired.<br><br>Basilisk was originally programmed entirely in Python and GLSL, taking advantage of ModenrGL. Now, we are currently working to rewrite Basilisk in c++ for greater control, optimization, and physics speeds.</p>
+                    <p>Basilisk is a 3D engine package for Python that can create visualizations, simulations, and video games from the comfort and ease of Python. Basilisk is designed for quick and effortless development, providing a powerful backend engine that supports larger-scale projects without requiring extensive setup. The engine automatically handles all graphics and physics for you, making it easy to get projects running, with the option to inject your own custom functionality if desired for more advanced control.
+                    Basilisk was originally programmed entirely in Python and GLSL, taking advantage of ModernGL for GPU-accelerated rendering. Currently, we are working to rewrite Basilisk in C++ to allow for greater control over system resources, improved optimization, and faster physics calculations, making the engine more capable for demanding projects.
+                    I am primarily responsible for the graphics programming aspect of the engine. I have implemented highly optimized batched rendering, capable of handling millions of objects efficiently. I also implemented physically based rendering based on Disney’s BSDF, as outlined in 2012 by Brent Burley, which allows materials and lighting to interact realistically.
+                    </p>
                     <a href="https://github.com/BasiliskGroup/BasiliskEngine/tree/basilisk-python">Github</a>
                     <a href="https://basilisk-website.vercel.app/">Website</a>
                 </div>
@@ -90,7 +93,9 @@
                 <div class="project-content">
                     <h1>minecraft python edition</h1>
                     <h2>python • glsl • moderngl</h2>
-                    <p>Minecraft clone programmed entirely in Python and GLSL utilizing ModernGL. Includes a simplex-based world generation with biomes, caves, trees, and ores. Has the minecraft inventory and crafting system, complete with a crafting table and furnace. Uses a simple flood fill lighting system with ambient occlusion to add to the vibe of the game. </p>
+                    <p>Minecraft Python Edition is a Minecraft clone programmed entirely in Python and GLSL using ModernGL. It includes a simplex-based world generation system with biomes, caves, trees, and ores, as well as the Minecraft inventory and crafting system, complete with a crafting table and furnace. The game also uses a simple flood-fill lighting system with ambient occlusion, which adds to the visual depth and overall feel of the game.
+                    Much of the development was focused on optimizing the chunk meshing system and the flood-fill lighting. The chunk meshing system needed to account for optimal rendering, culling faces that are never visible, and the limitations of remeshing in Python. The lighting system was designed to only update areas affected by player actions, reducing the time spent computing lighting across the world.
+                    </p>
                     <a href="https://github.com/JonahCoffelt/MinecraftPythonEdition">Github</a>
                     <a href="https://www.youtube.com/watch?v=F-i20m6vxD8">Demo</a>
                 </div>
@@ -106,7 +111,7 @@
                 <div class="project-content">
                     <h1>cpu design</h1>
                     <h2>logisim</h2>
-                    <p>CPU design made in Logism for CSCE 312. Implements a Y86 architecture. I contributed most to the instruction memory and memory fetch, the register file, and memory read/write components. Implemented high-level component orchestration and timing. </p>
+                    <p>For CSCE 312, I designed a CPU in Logisim that implements a Y86 architecture. I contributed primarily to the instruction memory and memory fetch, the register file, and memory read/write components. I also implemented high-level component orchestration and timing. Using this CPU, I programmed several scripts in Y86 to demonstrate its capabilities, including arithmetic operations, memory management, and matrix multiplication.</p>
                 </div>
             </div>
 
@@ -120,7 +125,13 @@
                 <div class="project-content">
                     <h1>emulsion</h1>
                     <h2>python • glsl • basilisk engine</h2>
-                    <p>Game made in 48 hours for Chillennium, the worlds largest, in-person, student-run game jam. Earned 2nd place overall. Programmed entirely with Basilisk Engine. Emulsion is a first person shooter game where your bullets' paths reveal a rift to another parallel world. </p>
+                    <p>Emulsion is a game made in 48 hours for Chillennium, the world’s largest in-person student-run game jam, where it earned 2nd place overall. It was programmed entirely using the Basilisk Engine. Emulsion is a first-person shooter where bullets reveal a rift to another parallel world. My main responsibility was writing shader code to handle the ability to view the other world through bullet shots. This required implementing multiple shaders, including 
+                    shaders for each world
+                    bullet path shader
+                    depth testing shader
+                    final image combination shaders
+                    All of these worked together to create a single, seamless final image. 
+                    </p>
                     <a href="https://gizmo-0918.itch.io/emulsion">Itch</a>
                     <a href="https://www.youtube.com/watch?v=7F3wWIYcwN8&pp=0gcJCcYJAYcqIYzv">Demo</a>
                     <a href="https://github.com/BasiliskGroup/Emulsion">Github</a>
@@ -137,7 +148,7 @@
                 <div class="project-content">
                     <h1>nerual network</h1>
                     <h2>python • numpy</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <p>I created a lightweight neural network in Python using Numpy. Using calculus-based gradient backpropagation, the network was trained with the MNIST dataset to recognize handwritten numbers, achieving 95% accuracy. This project allowed me to explore both the mathematical foundations of neural networks and practical implementation.</p>
                 </div>
             </div>
 
@@ -151,7 +162,7 @@
                 <div class="project-content">
                     <h1>portfolio website</h1>
                     <h2>html • css • javascript • figma</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    <p>This website, which you are currently visiting, was developed as an assignment for CSCE 331. It uses HTML, CSS, and JavaScript and includes functionality to switch between two CSS stylesheets. The project demonstrates front-end development skills and attention to user interaction. The project demonstrates both front-end design skills and the ability to create interactive, user-friendly interfaces.</p>
                 </div>
             </div>
         </div>
