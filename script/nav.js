@@ -12,17 +12,11 @@ buttons.forEach(btn => {
     });
     btn.addEventListener("click", () => {
     const target = btn.dataset.page;
-    if (!target) return; // skip buttons with no page
+    if (!target) return;
 
-    // hide all
     pages.forEach(p => p.classList.remove("active"));
 
-    // show the selected one
     const page = document.getElementById(target);
     if (page) page.classList.add("active");
   });
 });
-
-function switchTheme(newCssFile) {
-    document.getElementById("main-stylesheet").setAttribute("href", newCssFile);
-}

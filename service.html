@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jonah Coffelt</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/nav.css">
-    <link rel="stylesheet" href="style/home.css">
-    <link rel="stylesheet" href="style/projects.css">
-    <link rel="stylesheet" href="style/services.css">
+    <link id="sheet-style" rel="stylesheet" href="style/style.css">
+    <link id="sheet-nav" rel="stylesheet" href="style/nav.css">
+    <link id="sheet-home" rel="stylesheet" href="style/home.css">
+    <link id="sheet-projects" rel="stylesheet" href="style/projects.css">
+    <link id="sheet-acedemics" rel="stylesheet" href="style/acedemics.css">
+    <link id="sheet-service" rel="stylesheet" href="style/service.css">
+    <link id="sheet-qualifications" rel="stylesheet" href="style/qualifications.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aubrey&family=Fragment+Mono:ital@0;1&display=swap" rel="stylesheet">
@@ -29,22 +31,32 @@
 
                 <div id="services-container">
                     <div class="service">
-                        <h1>
-                            Texas A&M Game Developers
-                        </h1>
-                        <p>
-                            I am the Vice President of TAGD. I coordinate with industry professionals to speak at club events and judge competitions. I also assist the president in planning and running weekly club meetings. As part of TAGD, I develop a video game with a team each semester. Of the three games I have made for these competitions, all have received an award, namely Best in Programming twice and Best in Design once.
-                        </p>
-                        <a href="https://tagdigda.wixsite.com/gamedev">TAGD Website</a>
+                        <div class="service-content">
+                            <h1>
+                                Texas A&M Game Developers
+                            </h1>
+                            <p>
+                                I am the Vice President of TAGD. I coordinate with industry professionals to speak at club events and judge competitions. I also assist the president in planning and running weekly club meetings. As part of TAGD, I develop a video game with a team each semester. Of the three games I have made for these competitions, all have received an award, namely Best in Programming twice and Best in Design once.
+                            </p>
+                            <a href="https://tagdigda.wixsite.com/gamedev">TAGD Website</a>
+                        </div>
+                        <div class="service-image">
+                            <img src="assets/tagd.png" alt="">
+                        </div>
                     </div>
                     <div class="service">
-                        <h1>
-                            Woodlands methodist Church
-                        </h1>
-                        <p>
-                            I am an audio/visual technician for Woodlands Methodist Church. I support two traditional chapel services and the traditional sanctuary service. For chapel services, I manage stage setup, speaker microphones, front-of-house audio for music, and live stream audio. For the sanctuary service, I assist with stage setup and teardown and run and program stage and room lighting.
-                        </p>
-                        <a href="https://thewoodlandsmethodist.org/">Woodlands Methodist Church</a>
+                        <div class="service-content">
+                            <h1>
+                                Woodlands methodist Church
+                            </h1>
+                            <p>
+                                I am an audio/visual technician for Woodlands Methodist Church. I support two traditional chapel services and the traditional sanctuary service. For chapel services, I manage stage setup, speaker microphones, front-of-house audio for music, and live stream audio. For the sanctuary service, I assist with stage setup and teardown and run and program stage and room lighting.
+                            </p>
+                            <a href="https://thewoodlandsmethodist.org/">Woodlands Methodist Church</a>
+                        </div>
+                        <div class="service-image">
+                            <img src="assets/twmc.avif" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -63,17 +75,21 @@
                     <img src="assets/acedemics.png" alt="">
                 </a>
                 <a href="service.html" class="nav-button" data-tooltip="service">
-                    <img src="assets/projects.png" alt="">
+                    <img src="assets/service.png" alt="">
                 </a>
                 <a href="ai.html" class="nav-button" data-tooltip="ai">
-                    <img src="assets/projects.png" alt="">
+                    <img src="assets/ai.png" alt="">
                 </a>
+                <button id="theme-toggle">
+                    <img src="assets/style.png" alt="">
+                </button>
             </div>
         </div>
     </div>
 
     <script src="script/nav.js"></script>
     <script src="script/project.js"></script>
+    <script src="script/theme.js"></script>
     
 </body>
 </html>

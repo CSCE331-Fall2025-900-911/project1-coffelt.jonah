@@ -9,7 +9,7 @@
     width: 35%;
     padding: 0;
     margin: 0;
-    border-top: 3px black solid;
+    border-top: 3px azure solid;
     display: flex;
 }
 
@@ -40,6 +40,7 @@
     min-width: 60px;  /* optional, prevents size jumps */
 }
 
+
 #theme-toggle {
     padding: 0;
     margin: 0;
@@ -54,4 +55,5 @@
 #theme-toggle > img {
     padding-top: 7.5%;
     height: 70%;
+    filter: invert(1);
 }

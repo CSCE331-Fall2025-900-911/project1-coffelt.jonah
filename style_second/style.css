@@ -3,16 +3,23 @@ body {
     margin: 0;
     overflow: hidden; 
     font-family: 'Fragment Mono';
+    color: azure;
 }
 
 h1 {
     margin: 0;
     font-size: 164px;
+    color: azure;
 }
 
 h2 {
     margin: 0;
     font-size: 26px;
+    color: azure;
+}
+
+p {
+    color: azure;
 }
 
 #page-container {
@@ -43,6 +50,7 @@ h2 {
     height: 100vh;
     margin: 0;
     padding: 0;
+    filter: invert(100%); 
 }
 
 #border {
@@ -52,5 +60,13 @@ h2 {
     right: min(10vw, 50px);
     top: min(10vw, 50px);
     bottom: min(10vw, 50px);
-    border: 3px green solid;
+    border: 3px azure solid;
+}
+
+.nav-button > img {
+    filter: invert(100%); 
+}
+
+#nav-bar {
+    border-top: 3px azure solid;
 }
