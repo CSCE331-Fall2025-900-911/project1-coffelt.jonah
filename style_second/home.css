@@ -6,9 +6,11 @@
 }
 
 #home-title {
-    margin-left: 75px;
-    border-left: 3px azure solid;
-    padding-left: 50px;
+    margin-right: 75px;
+    border-right: 3px azure solid;
+    padding-right: 50px;
+    text-align: right;
+    
 }
 
 #home-subtitle {
